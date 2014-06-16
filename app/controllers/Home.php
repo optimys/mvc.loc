@@ -11,8 +11,12 @@
  * @author Алекс
  */
 class Home extends Controller{
-    public function index(){
-        echo 'home/i';
+    
+    public function index($name="", $othername=""){
+        echo "First param: ".$name." --and--  Second param: ".$othername ;
+    }
+    public function test(){
+        echo ":)))";
     }
 }
 
