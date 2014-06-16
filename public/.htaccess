@@ -1,4 +1,4 @@
-Options-MultiViews
+Options -MultiViews
 RewriteEngine On
 
 RewriteBase mvc.loc/public

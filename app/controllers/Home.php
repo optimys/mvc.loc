@@ -11,7 +11,9 @@
  * @author Алекс
  */
 class Home extends Controller{
-    
+    public function index(){
+        echo 'home/i';
+    }
 }
 
 ?>

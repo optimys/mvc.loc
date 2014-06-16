@@ -7,7 +7,7 @@ class App {
 
 
     public function __construct() {
-        $this->spliturl(); 
+        print_r( $this->spliturl() ); 
      }
     
     public function spliturl(){
