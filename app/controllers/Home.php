@@ -12,8 +12,10 @@
  */
 class Home extends Controller{
     
-    public function index($name="", $othername=""){
-        echo "First param: ".$name." --and--  Second param: ".$othername ;
+    public function index($name="Stranger"){
+        $user = $this->model('user');
+        $user->name = $name;
+        $this->view('home/index',array('name'=>$user->name, 'sername'=>$user->sername));
     }
     public function test(){
         echo ":)))";
