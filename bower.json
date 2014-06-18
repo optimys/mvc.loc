@@ -1,0 +1,29 @@
+{
+  "name": "simple_MVC",
+  "version": "1.0.0",
+  "authors": [
+    "Alex home <rombik_84@mail.ru>"
+  ],
+  "description": "Simple MVC sceleton from yutbube phpacademy chanel",
+  "main": "index.php",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "MVC",
+    "sceleton"
+  ],
+  "license": "MIT",
+  "homepage": "kalashnikow.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "font-awesome": "~4.1.0"
+  }
+}

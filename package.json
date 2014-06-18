@@ -1,0 +1,21 @@
+{
+  "name": "simple_MVC",
+  "version": "1.0.0",
+  "description": "Sceleton of the MVC patern development from phpacademy youtube channel",
+  "main": "public/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MVC",
+    "skeleton"
+  ],
+  "author": "Alex Kalashnikov",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.3.3",
+    "grunt-contrib-uglify": "~0.4.0"
+  }
+}

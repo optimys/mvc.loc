@@ -1,7 +1,7 @@
 Options -MultiViews
 RewriteEngine On
 
-RewriteBase /public/
+RewriteBase /public
 
 RewriteCond %{RQUEST_FILENAME} !-d
 RewriteCond %{RQUEST_FILENAME} !-f

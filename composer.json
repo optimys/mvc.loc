@@ -1,0 +1,8 @@
+{
+    "require": {
+        "facebook/xhprof": "dev-master",
+        "linkedinapi/linkedin": "dev-master",
+        "j7mbo/twitter-api-php": "dev-master",
+        "facebook/php-sdk": "dev-master"
+    }
+}
